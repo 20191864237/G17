@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: shuixianhua2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\HIDE松~1\AppData\Local\Temp\RSP4491.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/shuixianhua2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\hide松本秀人\Desktop\水仙花数\水仙花数数组\shuixianhua2.cpp"
+]
+Creating command line "cl.exe @"C:\Users\HIDE松~1\AppData\Local\Temp\RSP4491.tmp"" 
+Creating temporary file "C:\Users\HIDE松~1\AppData\Local\Temp\RSP4492.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/shuixianhua2.pdb" /debug /machine:I386 /out:"Debug/shuixianhua2.exe" /pdbtype:sept 
+".\Debug\shuixianhua2.obj"
+]
+Creating command line "link.exe @"C:\Users\HIDE松~1\AppData\Local\Temp\RSP4492.tmp""
+<h3>Output Window</h3>
+Compiling...
+shuixianhua2.cpp
+C:\Users\hide松本秀人\Desktop\水仙花数\水仙花数数组\shuixianhua2.cpp(90) : warning C4508: 'main' : function should return a value; 'void' return type assumed
+C:\Users\hide松本秀人\Desktop\水仙花数\水仙花数数组\shuixianhua2.cpp(6) : warning C4101: 'i' : unreferenced local variable
+C:\Users\hide松本秀人\Desktop\水仙花数\水仙花数数组\shuixianhua2.cpp(6) : warning C4101: 'k' : unreferenced local variable
+C:\Users\hide松本秀人\Desktop\水仙花数\水仙花数数组\shuixianhua2.cpp(6) : warning C4101: 'm' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+shuixianhua2.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
