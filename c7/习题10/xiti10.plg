@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: xiti10 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\HIDE松~1\AppData\Local\Temp\RSP9730.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/xiti10.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\hide松本秀人\Desktop\c7\习题10\xiti10.cpp"
+]
+Creating command line "cl.exe @"C:\Users\HIDE松~1\AppData\Local\Temp\RSP9730.tmp"" 
+Creating temporary file "C:\Users\HIDE松~1\AppData\Local\Temp\RSP9731.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/xiti10.pdb" /debug /machine:I386 /out:"Debug/xiti10.exe" /pdbtype:sept 
+".\Debug\xiti10.obj"
+]
+Creating command line "link.exe @"C:\Users\HIDE松~1\AppData\Local\Temp\RSP9731.tmp""
+<h3>Output Window</h3>
+Compiling...
+xiti10.cpp
+C:\Users\hide松本秀人\Desktop\c7\习题10\xiti10.cpp(19) : error C2065: 't' : undeclared identifier
+C:\Users\hide松本秀人\Desktop\c7\习题10\xiti10.cpp(19) : error C2501: 'puts' : missing storage-class or type specifiers
+C:\Users\hide松本秀人\Desktop\c7\习题10\xiti10.cpp(19) : error C2373: 'puts' : redefinition; different type modifiers
+        c:\microsoft visual studio\vc98\include\stdio.h(332) : see declaration of 'puts'
+C:\Users\hide松本秀人\Desktop\c7\习题10\xiti10.cpp(20) : error C2143: syntax error : missing ';' before '}'
+C:\Users\hide松本秀人\Desktop\c7\习题10\xiti10.cpp(20) : error C2143: syntax error : missing ';' before '}'
+C:\Users\hide松本秀人\Desktop\c7\习题10\xiti10.cpp(20) : error C2143: syntax error : missing ';' before '}'
+C:\Users\hide松本秀人\Desktop\c7\习题10\xiti10.cpp(22) : error C2143: syntax error : missing ';' before '{'
+C:\Users\hide松本秀人\Desktop\c7\习题10\xiti10.cpp(22) : error C2447: missing function header (old-style formal list?)
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+xiti10.exe - 8 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
