@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\HIDE松~1\AppData\Local\Temp\RSPD9A6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c"
+]
+Creating command line "cl.exe @"C:\Users\HIDE松~1\AppData\Local\Temp\RSPD9A6.tmp"" 
+<h3>Output Window</h3>
+Compiling...
+main.c
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(17) : error C2054: expected '(' to follow 'stu'
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(18) : error C2085: 'Menu1' : not in formal parameter list
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(18) : error C2143: syntax error : missing ';' before '{'
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(91) : error C2039: 'stu_score' : is not a member of 'students'
+        C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(9) : see declaration of 'students'
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(91) : error C2039: 'stu_score' : is not a member of 'students'
+        C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(9) : see declaration of 'students'
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(105) : error C2057: expected constant expression
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(105) : error C2466: cannot allocate an array of constant size 0
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(105) : error C2133: 'sub_sum' : unknown size
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(111) : error C2057: expected constant expression
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(111) : error C2466: cannot allocate an array of constant size 0
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(111) : error C2133: 'qualify' : unknown size
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(145) : warning C4013: 'sort3' undefined; assuming extern returning int
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(149) : error C2065: 'score' : undeclared identifier
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(149) : error C2109: subscript requires array or pointer type
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(155) : error C2039: 'sex' : is not a member of 'students'
+        C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(9) : see declaration of 'students'
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(252) : error C2039: 'sex' : is not a member of 'students'
+        C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(9) : see declaration of 'students'
+C:\Users\hide松本秀人\Desktop\基于C语言的学生成绩管理系统\源代码\main.c(369) : warning C4013: 'Menu1' undefined; assuming extern returning int
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+main.obj - 15 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
